@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Chia-Yi's personal site">
+		<meta name="author" content="Chia-Yi Liang">
+
+		<title>First Page</title>
+		<link rel="shortcut icon" href="favicon.ico" />
+
+		<link rel="stylesheet" href="webcss.css">
+
+	</head>
+
+	<body>
+
+		<h1 id="element" class="title">Hello <br>My Name is <br>Chia-Yi Liang</h1>
+
+		<hr>
+
+		<div class="container">
+			<ul class="linkstuff">
+				<li>
+					<a class="my_link" id="resume" href="Resume.pdf" target="_blank"><span class="links"><h2>Resume</h2></span></a>
+				</li>
+				<li>
+					<a class="my_link" id="github" href="https://github.com/chiayi" target="_blank"><span class="links"><h2>Github</h2></span></a>
+				</li>
+				<li>
+					<a class="my_link" id="linkedin" href="https://linkedin.com/in/chiayiliang" target="_blank"><span class="links"><h2>Linkedin</h2></span></a>
+				</li>
+				<li>
+					<a class="my_link" id="facebook" href="https://facebook.com/chiayiliang327" target="_blank"><span class="links"><h2>Facebook</h2></span></a>
+				</li>
+			</ul>
+		</div>
+
+		<h3 class="emails">Feel free to email me at</h3>
+		<h3 clasS="emailss">chia@chiayiliang.me</h3>
+
+		<!-- JQuery -->
+		<script src="jquery.js"></script>
+
+		<!-- typed.js -->
+		<script src="typed.js"></script>
+		<script>
+			$(function(){
+				$("#element").typed({
+					strings: ["Hello <br>My Name is <br>Chia-Yi Liang"],
+					typeSpeed: 50,
+					backDelay: 500,
+					showCursor: false,
+					loopCount: false
+				});
+			});
+		</script>
+	</body>
+
+</head>
