@@ -1,4 +1,4 @@
-body{
+body {
 	margin:0;
 	padding:0;
 	background: url('ba.png') repeat 0 0;
@@ -8,6 +8,29 @@ body{
 	-ms-filter: 30s linear 0s normal none infinite  animate;
 	animation: 30s linear 0s normal none infinite  animate;
 }
+
+/* For class Mobile */
+@media screen and (max-width : 480px){
+	body {
+		width: 480px;
+	}
+}
+
+
+/* For iphone: */
+@media screen and (max-width : 320px){
+	body {
+		width: 320px;
+	}
+} 
+
+
+/* For ipad: */
+@media screen and (max-width : 768px){
+	body {
+		width: 768px;
+	}
+} 
 
 @-webkit-keyframes animate {
 	0%{
